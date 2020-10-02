@@ -42,6 +42,8 @@ http://localhost:8080/swagger-ui.html
 or 
 http://localhost:8080/swagger-ui-custom.html
 
+* More reference: https://springdoc.org/
+
 ## How to re-generate the build and git details with Actuator /info endpoint
 
 * Run maven goal ==> spring-boot:build-info 
