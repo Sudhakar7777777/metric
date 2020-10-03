@@ -30,7 +30,7 @@ public class ActuatorSecurityConfig extends WebSecurityConfigurerAdapter {
 				.requestMatchers(EndpointRequest.to(ShutdownEndpoint.class)).hasRole("ACTUATOR_ADMIN")
 				.requestMatchers(EndpointRequest.toAnyEndpoint()).permitAll()
 				.requestMatchers(PathRequest.toStaticResources().atCommonLocations()).permitAll()
-				.antMatchers("/api-docs").permitAll()
+				.antMatchers("/docs/**").permitAll()
 				.antMatchers("/").permitAll()
 				.antMatchers("/**")
 				.authenticated()

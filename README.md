@@ -31,7 +31,7 @@ http://localhost:8080/actuator/prometheus
 
 http://localhost:8080/v3/api-docs/ 
 or
-http://localhost:8080/api-docs/ 
+http://localhost:8080/docs/api
 
 See how the urls are customizable with application.properties like...
 springdoc.api-docs.path=/api-docs
@@ -40,7 +40,7 @@ springdoc.api-docs.path=/api-docs
 
 http://localhost:8080/swagger-ui.html 
 or 
-http://localhost:8080/swagger-ui-custom.html
+http://localhost:8080/docs/swagger-ui.html
 
 * More reference: https://springdoc.org/
 
